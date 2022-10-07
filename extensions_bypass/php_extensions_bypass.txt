@@ -1,0 +1,13 @@
+.phtml
+.php
+.pHp
+.PhP
+.PHP
+.PHp
+.php3
+.php4
+.php5
+.inc
+.jpg.php
+.php.jpg
+.p.phphp
