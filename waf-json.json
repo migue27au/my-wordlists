@@ -1,0 +1,2494 @@
+{
+    "GoDaddy":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Access Denied - GoDaddy Website Firewall",
+                "value": "5"
+            }
+        ]
+    },
+    "WebKnight":
+    {
+        "contains response":
+        [
+            {
+                "signature": "WebKnight Application Firewall Alert",
+                "value": "4"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "WebKnight",
+                "value": "3"
+            },
+            {
+                "signature": "AQTRONIX WebKnight",
+                "value": "4"
+            }
+        ]
+    },
+    "Profense":
+    {
+        "header server":
+        [
+            {
+                "signature": "Profense",
+                "value": "5"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "PLBSID=",
+                "value": "5"
+            }
+        ]
+    },
+    "SecureIIS":
+    {
+        "contains":
+        [
+            {
+                "signature": "beyondtrust",
+                "value": "2"
+            },
+            {
+                "signature": "SecureIIS Error",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Download SecureIIS Personal Edition",
+                "value": "3"
+            },
+            {
+                "signature": "http://www.eeye.com/SecureIIS/",
+                "value": "3"
+            }
+        ]
+    },
+    "NevisProxy":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "Navajo",
+                "value": "5"
+            }
+        ]
+    },
+    "DotDefender":
+    {
+        "header":
+        [
+            {
+                "signature": "X-dotDefender-denied",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "dotDefender Blocked Your Request",
+                "value": "5"
+            }
+        ]
+    },
+    "ZScaler":
+    {
+        "header server":
+        [
+            {
+                "signature": "ZScaler",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Access Denied: Accenture Policy",
+                "value": "3"
+            },
+            {
+                "signature": "https://policies.accenture.com",
+                "value": "3"
+            },
+            {
+                "signature": "https://login.zscloud.net/img_logo_new1.png",
+                "value": "4"
+            },
+            {
+                "signature": "Your organization has selected Zscaler to protect you from internet threats",
+                "value": "4"
+            },
+            {
+                "signature": "The Internet site you have attempted to access is prohibited. Accenture''s webfilters indicate that the site likely contains content considered inappropriate",
+                "value": "4"
+            }
+        ]
+    },
+    "WTS-WAF":
+    {
+        "header server":
+        [
+            {
+                "signature": "wts",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "WTS-WAF",
+                "value": "3"
+            }
+        ]
+    },
+    "BinarySec":
+    {
+        "header server":
+        [
+            {
+                "signature": "BinarySec",
+                "value": "5"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-BinarySec-Via",
+                "value": "5"
+            },
+            {
+                "signature": "X-BinarySec-NoCache",
+                "value": "5"
+            }
+        ]
+    },
+    "SquareSpace":
+    {
+        "contains":
+        [
+            {
+                "signature": "404 Not Found",
+                "value": "1"
+            },
+            {
+                "signature": "BRICK-50",
+                "value": "3"
+            }
+        ]
+    },
+    "BlockDos":
+    {
+        "header server":
+        [
+            {
+                "signature": "BlockDos.net",
+                "value": "4"
+            }
+        ]
+    },
+    "Barikode":
+    {
+        "contains":
+        [
+            {
+                "signature": "BARIKODE",
+                "value": "4"
+            },
+            {
+                "signature": "Forbidden Access",
+                "value": "1"
+            }
+        ]
+    },
+    "Imunify360":
+    {
+        "header server":
+        [
+            {
+                "signature": "imunify360-webshield",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Powered by Imunify360",
+                "value": "5"
+            },
+            {
+                "signature": "imunify360 preloader",
+                "value": "5"
+            },
+            {
+                "signature": "protected by Imunify360",
+                "value": "5"
+            }
+        ]
+    },
+    "FortiWeb":
+    {
+        "contains response":
+        [
+            {
+                "signature": ".fgd_icon",
+                "value": "4"
+            },
+            {
+                "signature": "Server Unavailable!",
+                "value": "1"
+            },
+            {
+                "signature": "Server unavailable. Please visit later.",
+                "value": "2"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "FORTIWAFSID=",
+                "value": "5"
+            }
+        ]
+    },
+    "NSFocus":
+    {
+        "header server":
+        [
+            {
+                "signature": "NSFocus",
+                "value": "5"
+            }
+        ]
+    },
+    "SEnginx":
+    {
+        "contains":
+        [
+            {
+                "signature": "SENGINX-ROBOT-MITIGATION",
+                "value": "4"
+            }
+        ]
+    },
+    "360":
+    {
+        "header server":
+        [
+            {
+                "signature": "X-Powered-By-360WZB",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "qianxin-waf",
+                "value": "4"
+            }
+        ]
+    },
+    "onMessage Shield":
+    {
+        "contains":
+        [
+            {
+                "signature": "https://status.blackbaud.com",
+                "value": "4"
+            },
+            {
+                "signature": "https://maintenance.blackbaud.com",
+                "value": "4"
+            }
+        ],
+        "header X-Engine":
+        [
+            {
+                "signature": "onMessage Shield",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Blackbaud K-12 conducts routine maintenance",
+                "value": "4"
+            },
+            {
+                "signature": "This site is protected by an enhanced security system",
+                "value": "3"
+            }
+        ]
+    },
+    "Chaitin Safeline":
+    {
+        "contains response":
+        [
+            {
+                "signature": "event_id",
+                "value": "1"
+            }
+        ]
+    },
+    "SquidProxy IDS":
+    {
+        "header server":
+        [
+            {
+                "signature": "squid/",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Access control configuration prevents your request from being allowed at this time.",
+                "value": "2"
+            }
+        ]
+    },
+    "ArvanCloud":
+    {
+        "header server":
+        [
+            {
+                "signature": "ArvanCloud",
+                "value": "5"
+            }
+        ]
+    },
+    "Anquanbao":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-Powered-by-Anquanbao",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "hidden_intercept_time",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "/aqb_cc/error/",
+                "value": "5"
+            }
+        ]
+    },
+    "Instart DX":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-Instart-Request-ID",
+                "value": "5"
+            },
+            {
+                "signature": "X-Instart-WL",
+                "value": "5"
+            },
+            {
+                "signature": "X-Instart-Cache",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "The requested URL was rejected. Please consult with your administrator.",
+                "value": "2"
+            }
+        ]
+    },
+    "HyperGuard":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "ODSESSION=",
+                "value": "5"
+            }
+        ]
+    },
+    "Sucuri CloudProxy":
+    {
+        "contains":
+        [
+            {
+                "signature": "Sucuri",
+                "value": "3"
+            },
+            {
+                "signature": "Cloudproxy",
+                "value": "2"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-Sucuri-ID",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Access Denied - Sucuri Website Firewall",
+                "value": "4"
+            },
+            {
+                "signature": "https://sucuri.net/privacy-policy",
+                "value": "4"
+            },
+            {
+                "signature": "cloudproxy@sucuri.net",
+                "value": "4"
+            },
+            {
+                "signature": "Sucuri Inc",
+                "value": "3"
+            },
+            {
+                "signature": "Cloudproxy",
+                "value": "3"
+            }
+        ]
+    },
+    "SecKing":
+    {
+        "header server":
+        [
+            {
+                "signature": "SECKINGWAF",
+                "value": "5"
+            },
+            {
+                "signature": "SECKING/",
+                "value": "5"
+            }
+        ]
+    },
+    "Cisco ACE XML Gateway":
+    {
+        "header server":
+        [
+            {
+                "signature": "ACE XML Gateway",
+                "value": "5"
+            }
+        ]
+    },
+    "Yunaq Chuangyu":
+    {
+        "contains response":
+        [
+            {
+                "signature": "http://help.365cyd.com/cyd-error-help.html?code=403",
+                "value": "4"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "365cyd.com",
+                "value": "3"
+            },
+            {
+                "signature": "365cyd.net",
+                "value": "3"
+            }
+        ]
+    },
+    "Anyu":
+    {
+        "has header":
+        [
+            {
+                "signature": "WZWS-RAY",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Sorry! your access has been intercepted by AnYu",
+                "value": "4"
+            },
+            {
+                "signature": "AnYu- the green channel",
+                "value": "4"
+            }
+        ]
+    },
+    "DoSArrest Internet Security":
+    {
+        "header server":
+        [
+            {
+                "signature": "DOSarrest",
+                "value": "5"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-DIS-Request-ID",
+                "value": "5"
+            }
+        ]
+    },
+    "e3Learning Security":
+    {
+        "header server":
+        [
+            {
+                "signature": "e3Learning_WAF",
+                "value": "5"
+            }
+        ]
+    },
+    "ChinaCache":
+    {
+        "has header":
+        [
+            {
+                "signature": "Powered-by-ChinaCache",
+                "value": "5"
+            }
+        ]
+    },
+    "Bekchy":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Bekchy - Access Denied",
+                "value": "4"
+            },
+            {
+                "signature": "https://bekchy.com/report",
+                "value": "4"
+            }
+        ]
+    },
+    "Palo Alto":
+    {
+        "contains":
+        [
+            {
+                "signature": "Virus/Spyware Download Blocked",
+                "value": "3"
+            },
+            {
+                "signature": "Palo Alto Next Generation Security Platform",
+                "value": "4"
+            }
+        ]
+    },
+    "Astra":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "cz_astra_csrf_cookie",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Sorry, this is not allowed.",
+                "value": "2"
+            },
+            {
+                "signature": "our website protection system has detected an issue with your IP address and wont let you proceed any further",
+                "value": "2"
+            },
+            {
+                "signature": "www.getastra.com/assets/images/",
+                "value": "4"
+            }
+        ]
+    },
+    "Shadow Daemon":
+    {
+        "contains":
+        [
+            {
+                "signature": "request forbidden by administrative rules.",
+                "value": "1"
+            }
+        ]
+    },
+    "WallArm":
+    {
+        "header server":
+        [
+            {
+                "signature": "nginx-wallarm",
+                "value": "5"
+            }
+        ]
+    },
+    "DynamicWeb Injection Check":
+    {
+        "header X-403-Status-By":
+        [
+            {
+                "signature": "dw-inj-check",
+                "value": "5"
+            }
+        ]
+    },
+    "Stingray":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-Mapping",
+                "value": "4"
+            }
+        ]
+    },
+    "WebTotem":
+    {
+        "contains response":
+        [
+            {
+                "signature": "The current request was blocked by WebTotem",
+                "value": "4"
+            }
+        ]
+    },
+    "Tencent Cloud":
+    {
+        "contains":
+        [
+            {
+                "signature": "waf.tencent-cloud.com",
+                "value": "4"
+            }
+        ]
+    },
+    "ServerDefender VP":
+    {
+        "header X-Pint":
+        [
+            {
+                "signature": "p80",
+                "value": "5"
+            }
+        ]
+    },
+    "Eisoo Cloud":
+    {
+        "header server":
+        [
+            {
+                "signature": "EisooWAF-AZURE/EisooWAF",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "/eisoo-firewall-block.css",
+                "value": "5"
+            },
+            {
+                "signature": "www.eisoo.com",
+                "value": "4"
+            },
+            {
+                "signature": "Â© (year) Eisoo Inc.",
+                "value": "4"
+            }
+        ]
+    },
+    "Positive Technologies Application Firewall":
+    {
+        "header Request ID":
+        [
+            {
+                "signature": "\\d{4}-\\d{2}-\\d{2}-\\d{2}-\\d{2}-\\d{2}-",
+                "value": "4"
+            }
+        ]
+    },
+    "ISA Server":
+    {
+        "contains response":
+        [
+            {
+                "signature": "The ISA Server denied the specified Uniform Resource Locator (URL)",
+                "value": "5"
+            },
+            {
+                "signature": "The server denied the specified Uniform Resource Locator (URL). Contact the server administrator.",
+                "value": "5"
+            }
+        ]
+    },
+    "Sophos UTM":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Powered by UTM Web Protection",
+                "value": "4"
+            }
+        ]
+    },
+    "KONA Site Defender (Akamai)":
+    {
+        "header server":
+        [
+            {
+                "signature": "AkamaiGHost",
+                "value": "5"
+            }
+        ]
+    },
+    "Xuanwudun WAF":
+    {
+        "contains":
+        [
+            {
+                "signature": "http://admin.dbappwaf.cn/index.php/Admin/ClientMisinform/",
+                "value": "4"
+            }
+        ]
+    },
+    "Comodo cWatch":
+    {
+        "header server":
+        [
+            {
+                "signature": "Protected by COMODO WAF",
+                "value": "5"
+            }
+        ]
+    },
+    "West263CDN":
+    {
+        "header X-Cache":
+        [
+            {
+                "signature": "WT263CDN",
+                "value": "5"
+            }
+        ]
+    },
+    "SiteGuard (JP Secure)":
+    {
+        "contains":
+        [
+            {
+                "signature": "www.sitelock.com",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Sitelock is leader in Business Website Security Services.",
+                "value": "3"
+            },
+            {
+                "signature": "sitelock-site-verification",
+                "value": "4"
+            },
+            {
+                "signature": "sitelock_shield_logo",
+                "value": "4"
+            }
+        ]
+    },
+    "Malcare":
+    {
+        "contains":
+        [
+            {
+                "signature": "Blocked because of Malicious Activities",
+                "value": "1"
+            },
+            {
+                "signature": "Firewall powered by MalCare",
+                "value": "4"
+            }
+        ]
+    },
+    "Janusec Application Gateway":
+    {
+        "contains":
+        [
+            {
+                "signature": "JANUSEC",
+                "value": "3"
+            },
+            {
+                "signature": "Janusec Application Gateway",
+                "value": "4"
+            }
+        ]
+    },
+    "WebSEAL":
+    {
+        "header server":
+        [
+            {
+                "signature": "WebSEAL",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "This is a WebSEAL error message template file",
+                "value": "4"
+            },
+            {
+                "signature": "WebSEAL server received an invalid HTTP request",
+                "value": "4"
+            }
+        ]
+    },
+    "SecureSphere":
+    {
+        "contains":
+        [
+            {
+                "signature": "Contact support for additional information.",
+                "value": "1"
+            }
+        ]
+    },
+    "Synology Cloud":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Copyright (c) 2019 Synology Inc. All rights reserved.",
+                "value": "4"
+            }
+        ]
+    },
+    "Deny-All":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Condition Intercepted",
+                "value": "1"
+            }
+        ]
+    },
+    "TrafficShield":
+    {
+        "header server":
+        [
+            {
+                "signature": "F5-TrafficShield",
+                "value": "5"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "ASINFO=",
+                "value": "5"
+            }
+        ]
+    },
+    "ASPA":
+    {
+        "header server":
+        [
+            {
+                "signature": "ASPA-WAF",
+                "value": "5"
+            }
+        ],
+        "header ASPA-Cache-Status":
+        [
+            {
+                "signature": "HIT",
+                "value": "5"
+            },
+            {
+                "signature": "MISS",
+                "value": "5"
+            }
+        ]
+    },
+    "Yundun":
+    {
+        "header X-Cache":
+        [
+            {
+                "signature": "YUNDUN",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Blocked by YUNDUN Cloud WAF",
+                "value": "4"
+            }
+        ],
+        "header server":
+        [
+            {
+                "signature": "YUNDUN",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "yundun.com/yd_http_error/",
+                "value": "4"
+            }
+        ]
+    },
+    "SiteGround":
+    {
+        "contains response":
+        [
+            {
+                "signature": "The page you are trying to access is restricted due to a security rule",
+                "value": "3"
+            }
+        ]
+    },
+    "SonicWall":
+    {
+        "header server":
+        [
+            {
+                "signature": "SonicWALL",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "nsa_banner",
+                "value": "2"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Dell",
+                "value": "1"
+            },
+            {
+                "signature": "This request is blocked by the SonicWALL.",
+                "value": "4"
+            },
+            {
+                "signature": "Web Site Blocked",
+                "value": "2"
+            }
+        ]
+    },
+    "VirusDie":
+    {
+        "contains":
+        [
+            {
+                "signature": "Virusdie",
+                "value": "3"
+            },
+            {
+                "signature": "FW_BLOCK",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "http://cdn.virusdie.ru/splash/firewallstop.png",
+                "value": "4"
+            },
+            {
+                "signature": "copy; Virusdie.ru",
+                "value": "4"
+            }
+        ]
+    },
+    "TransIP":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-TransIP-Backend",
+                "value": "5"
+            },
+            {
+                "signature": "X-TransIP-Balancer",
+                "value": "5"
+            }
+        ]
+    },
+    "Approach":
+    {
+        "header server":
+        [
+            {
+                "signature": "Approach",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Approach Web Application Firewall Framework",
+                "value": "4"
+            },
+            {
+                "signature": "Your IP address has been logged and this information could be used by authorities to track you.",
+                "value": "2"
+            },
+            {
+                "signature": "Sorry for the inconvenience!",
+                "value": "2"
+            },
+            {
+                "signature": "Approach infrastructure team",
+                "value": "4"
+            }
+        ]
+    },
+    "Viettel":
+    {
+        "contains":
+        [
+            {
+                "signature": "https://cloudrity.com.vn/",
+                "value": "3"
+            },
+            {
+                "signature": "Viettel WAF system",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Access denied Â· Viettel WAF",
+                "value": "4"
+            },
+            {
+                "signature": "https://cloudrity.com.vn/customer/#/contact",
+                "value": "4"
+            }
+        ]
+    },
+    "F5 ASM":
+    {
+        "contains response":
+        [
+            {
+                "signature": "The requested URL was rejected. Please consult with your administrator.",
+                "value": "2"
+            }
+        ]
+    },
+    "KeyCDN":
+    {
+        "header server":
+        [
+            {
+                "signature": "KeyCDN",
+                "value": "5"
+            }
+        ]
+    },
+    "Armor Defense":
+    {
+        "contains response":
+        [
+            {
+                "signature": "This request has been blocked by website protection from Armor",
+                "value": "4"
+            },
+            {
+                "signature": "If you manage this domain please create an Armor support ticket",
+                "value": "4"
+            }
+        ]
+    },
+    "Proventia (IBM)":
+    {
+        "contains":
+        [
+            {
+                "signature": "request does not match Proventia rules",
+                "value": "4"
+            }
+        ]
+    },
+    "Puhui":
+    {
+        "header server":
+        [
+            {
+                "signature": "PuhuiWAF",
+                "value": "5"
+            }
+        ]
+    },
+    "ASP.NET Generic":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-ASPNET-Version",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "X-ASPNET-Version",
+                "value": "4"
+            },
+            {
+                "signature": "This generic 403 error means that the authenticated user is not authorized to use the requested resource",
+                "value": "2"
+            }
+        ]
+    },
+    "StackPath":
+    {
+        "contains response":
+        [
+            {
+                "signature": "You performed an action that triggered the service and blocked your request",
+                "value": "3"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "StackPath",
+                "value": "3"
+            }
+        ]
+    },
+    "BulletProof Security Pro":
+    {
+        "contains response":
+        [
+            {
+                "signature": "If you arrived here due to a search or clicking on a link click your Browser''s back button to return to the previous page.",
+                "value": "2"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "bpsMessage",
+                "value": "2"
+            }
+        ]
+    },
+    "NullDDoS":
+    {
+        "header server":
+        [
+            {
+                "signature": "NullDDoS System",
+                "value": "5"
+            }
+        ]
+    },
+    "Huawei Cloud":
+    {
+        "contains":
+        [
+            {
+                "signature": "hws_security@",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "account.hwclouds.com/static/error/images/404img.jpg",
+                "value": "4"
+            },
+            {
+                "signature": "www.hwclouds.com",
+                "value": "3"
+            }
+        ]
+    },
+    "Distil Web Protection":
+    {
+        "has header":
+        [
+            {
+                "signature": "X-Distil-CS",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Pardon Our Interruption...",
+                "value": "2"
+            },
+            {
+                "signature": "You have disabled javascript in your browser.",
+                "value": "1"
+            },
+            {
+                "signature": "Something about your browser made us think that you are a bot.",
+                "value": "2"
+            }
+        ]
+    },
+    "Sabre":
+    {
+        "header X-Powered-By":
+        [
+            {
+                "signature": "Safe3WAF",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Safe3waf",
+                "value": "4"
+            }
+        ],
+        "header server":
+        [
+            {
+                "signature": "Safe3 Web Firewall",
+                "value": "5"
+            }
+        ]
+    },
+    "WatchGuard IPS":
+    {
+        "header server":
+        [
+            {
+                "signature": "WatchGuard",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Request denied by WatchGuard Firewall",
+                "value": "4"
+            },
+            {
+                "signature": "WatchGuard Technologies Inc.",
+                "value": "4"
+            }
+        ]
+    },
+    "URLScan":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Server Erro in Application",
+                "value": "2"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Rejected-by-URLScan",
+                "value": "4"
+            },
+            {
+                "signature": "Module: IIS Web Core",
+                "value": "4"
+            }
+        ]
+    },
+    "Nexusguard":
+    {
+        "contains response":
+        [
+            {
+                "signature": "speresources.nexusguard.com/wafpage/index.html",
+                "value": "4"
+            }
+        ]
+    },
+    "Expression Engine":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Invalid URI",
+                "value": "1"
+            },
+            {
+                "signature": "Invalid GET Request",
+                "value": "1"
+            },
+            {
+                "signature": "Invalid Data",
+                "value": "1"
+            }
+        ]
+    },
+    "ShieldSecurity":
+    {
+        "contains response":
+        [
+            {
+                "signature": "You were blocked by the Shield.",
+                "value": "4"
+            },
+            {
+                "signature": "Something in the URL, Form or Cookie data wasn''t appropriate",
+                "value": "2"
+            },
+            {
+                "signature": "Warning: You have \\d remaining transgression(s) against this site",
+                "value": "4"
+            },
+            {
+                "signature": "Seriously stop repeating what you are doing or you will be locked out",
+                "value": "4"
+            }
+        ]
+    },
+    "IBM DataPower":
+    {
+        "header X-Backside-Transport":
+        [
+            {
+                "signature": "OK",
+                "value": "4"
+            },
+            {
+                "signature": "FAIL",
+                "value": "4"
+            }
+        ]
+    },
+    "GreyWizard":
+    {
+        "header server":
+        [
+            {
+                "signature": "greywizard",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Grey Wizard",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Contact the website owner or Grey Wizard",
+                "value": "4"
+            },
+            {
+                "signature": "ve detected attempted attack or non standard traffic from your IP address",
+                "value": "3"
+            }
+        ]
+    },
+    "URLMaster SecurityCheck":
+    {
+        "contains":
+        [
+            {
+                "signature": "UrlMaster",
+                "value": "3"
+            },
+            {
+                "signature": "UrlRewriteModule",
+                "value": "4"
+            },
+            {
+                "signature": "SecurityCheck",
+                "value": "1"
+            }
+        ]
+    },
+    "Radware Appwall":
+    {
+        "contains":
+        [
+            {
+                "signature": "Unauthorized Request Blocked",
+                "value": "1"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-SL-CompState",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Unauthorized Activity Has Been Detected.",
+                "value": "1"
+            },
+            {
+                "signature": "Case Number",
+                "value": "1"
+            },
+            {
+                "signature": "radwarealerting@",
+                "value": "4"
+            }
+        ]
+    },
+    "Netcontinuum":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "NCI__SessionId=",
+                "value": "5"
+            }
+        ]
+    },
+    "Teros":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "st8id",
+                "value": "5"
+            }
+        ]
+    },
+    "XLabs Security WAF":
+    {
+        "header X-CDN":
+        [
+            {
+                "signature": "XLabs Security",
+                "value": "5"
+            }
+        ]
+    },
+    "Varnish (OWASP)":
+    {
+        "contains":
+        [
+            {
+                "signature": "Request rejected by xVarnish-WAF",
+                "value": "4"
+            }
+        ]
+    },
+    "Cloudfront":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Generated by cloudfront (CloudFront)",
+                "value": "4"
+            }
+        ]
+    },
+    "Request Validation Mode":
+    {
+        "contains":
+        [
+            {
+                "signature": "HttpRequestValidationException.",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "ASP.NET has detected data in the request that is potentially dangerous.",
+                "value": "3"
+            },
+            {
+                "signature": "Request Validation has detected a potentially dangerous client input value.",
+                "value": "4"
+            }
+        ]
+    },
+    "CDN NS Application Gateway":
+    {
+        "contains":
+        [
+            {
+                "signature": "CdnNsWAF Application Gateway",
+                "value": "4"
+            }
+        ]
+    },
+    "Secure Entry":
+    {
+        "header server":
+        [
+            {
+                "signature": "Secure Entry Server",
+                "value": "5"
+            }
+        ]
+    },
+    "UCloud UEWaf":
+    {
+        "header server":
+        [
+            {
+                "signature": "uewaf/",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "ucloud.cn",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "/uewaf_deny_pages/default/img/",
+                "value": "4"
+            }
+        ]
+    },
+    "NetScaler AppFirewall":
+    {
+        "contains":
+        [
+            {
+                "signature": "NS-CACHE",
+                "value": "3"
+            },
+            {
+                "signature": "NSC_",
+                "value": "2"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "nnCoection",
+                "value": "5"
+            },
+            {
+                "signature": "citrix_ns_id",
+                "value": "5"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "ns_af=",
+                "value": "5"
+            }
+        ]
+    },
+    "IndusGuard":
+    {
+        "header server":
+        [
+            {
+                "signature": "IF_WAF",
+                "value": "5"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-Version",
+                "value": "3"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "further investigation and remediation with a screenshot of this page.",
+                "value": "3"
+            }
+        ]
+    },
+    "Varnish CacheWall":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Error 403 Naughty, not Nice!",
+                "value": "4"
+            },
+            {
+                "signature": "Varnish cache Server",
+                "value": "3"
+            }
+        ]
+    },
+    "Bluedon IST":
+    {
+        "header server":
+        [
+            {
+                "signature": "BDWAF",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Bluedon Web Application Firewall",
+                "value": "4"
+            }
+        ]
+    },
+    "AWS ELB":
+    {
+        "header server":
+        [
+            {
+                "signature": "awselb/2.0",
+                "value": "5"
+            }
+        ]
+    },
+    "aeSecure":
+    {
+        "contains":
+        [
+            {
+                "signature": "aeSecure-code",
+                "value": "4"
+            }
+        ]
+    },
+    "Wordfence":
+    {
+        "contains":
+        [
+            {
+                "signature": "WebKnight",
+                "value": "2"
+            },
+            {
+                "signature": "Generated by Wordfence",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "A potentially unsafe operation has been detected in your request to this site",
+                "value": "2"
+            },
+            {
+                "signature": "Your access to this site has been limited",
+                "value": "1"
+            },
+            {
+                "signature": "This response was generated by Wordfence",
+                "value": "4"
+            }
+        ]
+    },
+    "Airlock":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "AL-SESS",
+                "value": "4"
+            },
+            {
+                "signature": "AL-LB",
+                "value": "4"
+            }
+        ]
+    },
+    "ZenEdge":
+    {
+        "header server":
+        [
+            {
+                "signature": "ZENEDGE",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "/__zenedge/assets/",
+                "value": "4"
+            }
+        ]
+    },
+    "NewDefend":
+    {
+        "header server":
+        [
+            {
+                "signature": "NewDefend",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "http://www.newdefend.com/feedback/misinformation/",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "/nd_block/",
+                "value": "3"
+            }
+        ]
+    },
+    "PowerCDN":
+    {
+        "header X-Cache":
+        [
+            {
+                "signature": "powercdn.com",
+                "value": "5"
+            }
+        ],
+        "header X-CDN":
+        [
+            {
+                "signature": "PowerCDN",
+                "value": "5"
+            }
+        ],
+        "header Via":
+        [
+            {
+                "signature": "powercdn.com",
+                "value": "5"
+            }
+        ]
+    },
+    "YxLink":
+    {
+        "header server":
+        [
+            {
+                "signature": "Yxlink-WAF",
+                "value": "5"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "yx_ci_session",
+                "value": "5"
+            },
+            {
+                "signature": "yx_language",
+                "value": "5"
+            }
+        ]
+    },
+    "Reblaze":
+    {
+        "contains":
+        [
+            {
+                "signature": "Access Denied (403)",
+                "value": "1"
+            }
+        ],
+        "header server":
+        [
+            {
+                "signature": "Reblaze Secure Web Gateway",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Current session has been terminated",
+                "value": "1"
+            },
+            {
+                "signature": "For further information, do not hesitate to contact us",
+                "value": "1"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "rbzid=",
+                "value": "5"
+            }
+        ]
+    },
+    "Aliyundun":
+    {
+        "contains response":
+        [
+            {
+                "signature": "errors.aliyun.com",
+                "value": "4"
+            },
+            {
+                "signature": "Sorry, your request has been blocked as it may cause potential threats to the server''s security",
+                "value": "2"
+            }
+        ]
+    },
+    "MissionControl Application Shield":
+    {
+        "header server":
+        [
+            {
+                "signature": "Mission Control Application Shield",
+                "value": "5"
+            }
+        ]
+    },
+    "OpenResty Lua WAF":
+    {
+        "header server":
+        [
+            {
+                "signature": "openresty/",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "openresty/",
+                "value": "3"
+            }
+        ]
+    },
+    "Cloudbric":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Malicious Code Detected",
+                "value": "2"
+            },
+            {
+                "signature": "Your request was blocked by Cloudbric",
+                "value": "4"
+            },
+            {
+                "signature": "https://cloudbric.zendesk.com",
+                "value": "4"
+            },
+            {
+                "signature": "Cloudbric Help Center",
+                "value": "4"
+            },
+            {
+                "signature": "Cloudbric | ERROR",
+                "value": "4"
+            }
+        ]
+    },
+    "Nemesida":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Suspicious activity detected. Access to the site is blocked.",
+                "value": "2"
+            },
+            {
+                "signature": "nwaf@",
+                "value": "3"
+            }
+        ]
+    },
+    "PentaWAF":
+    {
+        "header server":
+        [
+            {
+                "signature": "PentaWAF/",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "PentaWAF/",
+                "value": "3"
+            }
+        ]
+    },
+    "BitNinja":
+    {
+        "contains":
+        [
+            {
+                "signature": "Security check by BitNinja",
+                "value": "4"
+            },
+            {
+                "signature": "your IP will be removed from BitNinja",
+                "value": "5"
+            },
+            {
+                "signature": "Visitor anti-robot validation",
+                "value": "2"
+            },
+            {
+                "signature": "(You will be challenged by a reCAPTCHA page)",
+                "value": "2"
+            }
+        ]
+    },
+    "WebLand":
+    {
+        "header server":
+        [
+            {
+                "signature": "Apache Protected By WebLand WAF",
+                "value": "5"
+            }
+        ]
+    },
+    "Cloudflare":
+    {
+        "header set-cookie":
+        [
+            {
+                "signature": "__cfuid=",
+                "value": "5"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "cf-ray",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Attention Required!",
+                "value": "2"
+            },
+            {
+                "signature": "DDoS protection by Cloudflare",
+                "value": "4"
+            },
+            {
+                "signature": "CLOUDFLARE_ERROR_500S_BOX",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "Cloudflare Ray ID",
+                "value": "4"
+            }
+        ],
+        "header server":
+        [
+            {
+                "signature": "cloudflare",
+                "value": "5"
+            }
+        ]
+    },
+    "KnownSec":
+    {
+        "contains response":
+        [
+            {
+                "signature": "ks-waf-error.png",
+                "value": "4"
+            }
+        ]
+    },
+    "Yunsuo":
+    {
+        "has header":
+        [
+            {
+                "signature": "yunsuo_session",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "yunsuologo",
+                "value": "4"
+            }
+        ]
+    },
+    "SafeDog":
+    {
+        "header server":
+        [
+            {
+                "signature": "WAF/2.0",
+                "value": "3"
+            },
+            {
+                "signature": "safedog",
+                "value": "5"
+            }
+        ]
+    },
+    "CrawlProtect":
+    {
+        "contains":
+        [
+            {
+                "signature": "CrawlProtect",
+                "value": "2"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "This site is protected by CrawlProtect !!!",
+                "value": "4"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "crawlprotect",
+                "value": "5"
+            }
+        ]
+    },
+    "PerimeterX":
+    {
+        "contains":
+        [
+            {
+                "signature": "https://www.perimeterx.com/whywasiblocked",
+                "value": "4"
+            }
+        ]
+    },
+    "EdgeCast (Verizon)":
+    {
+        "contains response":
+        [
+            {
+                "signature": "Please contact the site administrator, and provide the following Reference ID:EdgeCast Web Application Firewall (Verizon)",
+                "value": "4"
+            }
+        ]
+    },
+    "BIG-IP ASM":
+    {
+        "contains":
+        [
+            {
+                "signature": "BigIP",
+                "value": "1"
+            },
+            {
+                "signature": "F5",
+                "value": "1"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-WA-Info",
+                "value": "5"
+            },
+            {
+                "signature": "X-Cnection",
+                "value": "5"
+            }
+        ]
+    },
+    "pkSecurityModule IDS":
+    {
+        "contains response":
+        [
+            {
+                "signature": "A safety critical request was discovered and blocked",
+                "value": "1"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "pkSecurityModule: Security.Alert",
+                "value": "4"
+            }
+        ]
+    },
+    "ModSecurity CRS":
+    {
+        "header server":
+        [
+            {
+                "signature": "naxsi/waf",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "This Request Has Been Blocked By NAXSI",
+                "value": "4"
+            },
+            {
+                "signature": "NAXSI blocked information",
+                "value": "4"
+            }
+        ],
+        "header X-Data-Origin":
+        [
+            {
+                "signature": "naxsi/waf",
+                "value": "5"
+            }
+        ]
+    },
+    "Baidu Yunjiasu":
+    {
+        "header server":
+        [
+            {
+                "signature": "Yunjiasu-nginx",
+                "value": "5"
+            },
+            {
+                "signature": "Yunjiasu",
+                "value": "5"
+            }
+        ]
+    },
+    "LiteSpeed":
+    {
+        "header server":
+        [
+            {
+                "signature": "LiteSpeed",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "Proudly powered by LiteSpeed Web Server",
+                "value": "4"
+            },
+            {
+                "signature": "http://www.litespeedtech.com/error-page",
+                "value": "4"
+            },
+            {
+                "signature": "Access to resource on this server is denied.",
+                "value": "1"
+            }
+        ]
+    },
+    "ModSecurity":
+    {
+        "contains":
+        [
+            {
+                "signature": "ModSecurity Action",
+                "value": "4"
+            }
+        ],
+        "header server":
+        [
+            {
+                "signature": "Mod_Security",
+                "value": "5"
+            },
+            {
+                "signature": "NYOB",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "This error was generated by Mod_Security",
+                "value": "4"
+            },
+            {
+                "signature": "One or more things in your request were suspicious",
+                "value": "2"
+            },
+            {
+                "signature": "rules of the mod_security module",
+                "value": "4"
+            },
+            {
+                "signature": "mod_security rules triggered",
+                "value": "4"
+            },
+            {
+                "signature": "/modsecurity-errorpage/",
+                "value": "4"
+            }
+        ]
+    },
+    "Jiasule":
+    {
+        "header server":
+        [
+            {
+                "signature": "jiasule-WAF",
+                "value": "5"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "notice-jiasule",
+                "value": "4"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "static.jiasule.com/static/js/http_error.js",
+                "value": "4"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "__jsluid=",
+                "value": "5"
+            },
+            {
+                "signature": "jsl_tracking",
+                "value": "5"
+            }
+        ]
+    },
+    "SecuPress":
+    {
+        "contains":
+        [
+            {
+                "signature": "SecuPress",
+                "value": "3"
+            },
+            {
+                "signature": "Block ID: Bad URL Contents",
+                "value": "1"
+            }
+        ]
+    },
+    "RSFirewall":
+    {
+        "contains":
+        [
+            {
+                "signature": "COM_RSFIREWALL_403_FORBIDDEN",
+                "value": "4"
+            },
+            {
+                "signature": "COM_RSFIREWALL_EVENT",
+                "value": "4"
+            }
+        ]
+    },
+    "NinjaFirewall":
+    {
+        "contains":
+        [
+            {
+                "signature": "NinjaFirewall",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "NinjaFirewall: 403 Forbidden",
+                "value": "4"
+            },
+            {
+                "signature": "For security reasons, it was blocked and logged",
+                "value": "4"
+            }
+        ]
+    },
+    "WebRay":
+    {
+        "header server":
+        [
+            {
+                "signature": "WebRay-WAF",
+                "value": "5"
+            }
+        ],
+        "header DrivedBy":
+        [
+            {
+                "signature": " RaySrv RayEng/",
+                "value": "5"
+            }
+        ]
+    },
+    "CloudfloorDNS":
+    {
+        "header server":
+        [
+            {
+                "signature": "CloudfloorDNS WAF",
+                "value": "5"
+            }
+        ],
+        "contains response":
+        [
+            {
+                "signature": "CloudfloorDNS - Web Application Firewall Error",
+                "value": "4"
+            },
+            {
+                "signature": "www.cloudfloordns.com/contact",
+                "value": "4"
+            }
+        ]
+    },
+    "Cerber (WordPress)":
+    {
+        "contains response":
+        [
+            {
+                "signature": "re sorry, you are not allowed to proceed",
+                "value": "2"
+            },
+            {
+                "signature": "Your request looks suspicious or similar to automated requests from spam posting software",
+                "value": "2"
+            }
+        ]
+    },
+    "USP Secure Entry":
+    {
+        "contains":
+        [
+            {
+                "signature": "Secure Entry Server",
+                "value": "4"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "Secure Entry Server",
+                "value": "5"
+            },
+            {
+                "signature": "Secure-Entry-Server",
+                "value": "5"
+            }
+        ]
+    },
+    "WebARX Security":
+    {
+        "contains response":
+        [
+            {
+                "signature": "This request has been blocked by WebARX Web Application Firewall",
+                "value": "4"
+            }
+        ],
+        "contains":
+        [
+            {
+                "signature": "/wp-content/plugins/webarx/",
+                "value": "4"
+            }
+        ]
+    },
+    "Imperva Incapsula":
+    {
+        "contains":
+        [
+            {
+                "signature": "Powered By Incapsula",
+                "value": "4"
+            },
+            {
+                "signature": "Incapsula incident ID",
+                "value": "4"
+            },
+            {
+                "signature": "_Incapsula_Resource",
+                "value": "4"
+            },
+            {
+                "signature": "subject=WAF Block Page",
+                "value": "3"
+            },
+            {
+                "signature": "visid_incap",
+                "value": "2"
+            }
+        ],
+        "has header":
+        [
+            {
+                "signature": "X-Iinfo",
+                "value": "5"
+            }
+        ],
+        "header set-cookie":
+        [
+            {
+                "signature": "incap_ses",
+                "value": "5"
+            },
+            {
+                "signature": "visid_incap",
+                "value": "5"
+            }
+        ]
+    }
+}
